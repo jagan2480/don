@@ -1,0 +1,85 @@
+{
+    "weather": [
+        {
+            "cityId": 1,
+            "cityName": "Cambridge",
+            "currentConditions": "Sleet",
+            "temperature": 8,
+            "windSpeed": 27,
+            "windDirection": "Easterly",
+            "windChillFactor": 6
+        },
+
+        {
+            "cityId": 2,
+            "cityName": "Canterbury",
+            "currentConditions": "Cloud",
+            "temperature": 30,
+            "windSpeed": 17,
+            "windDirection": "South easterly",
+            "windChillFactor": 29
+        },
+
+        {
+            "cityId": 3,
+            "cityName": "London",
+            "currentConditions": "Snow",
+            "temperature":3,
+            "windSpeed": 19,
+            "windDirection": "South westerly",
+            "windChillFactor": 1
+
+        },
+
+        {
+            "cityId": 4,
+            "cityName": "Manchester",
+            "currentConditions": "Hail",
+            "temperature": 18,
+            "windSpeed": 9,
+            "windDirection": "Westerly",
+            "windChillFactor": 23
+        },
+
+        {
+            "cityId": 5,
+            "cityName": "Oxford",
+            "currentConditions": "Heavy Rain",
+            "temperature": 10,
+            "windSpeed": 12,
+            "windDirection": "North westerly",
+            "windChillFactor": 9
+        },
+
+        {
+            "cityId": 6,
+            "cityName": "Newry",
+            "currentConditions": "Sun",
+            "temperature": 27,
+            "windSpeed": 8,
+            "windDirection": "Easterly",
+            "windChillFactor": 22
+        },
+
+        {
+            "cityId": 7,
+            "cityName": "Liverpool",
+            "currentConditions": "Rain",
+            "temperature": 19,
+            "windSpeed": 13,
+            "windDirection": "Southerly",
+            "windChillFactor": 16
+        },
+
+        {
+            "cityId": 8,
+            "cityName": "Belfast",
+            "currentConditions": "Sun and Clouds",
+            "temperature": 14,
+            "windSpeed": 12,
+            "windDirection": "Westerly",
+            "windChillFactor": 15
+        }
+
+    ]
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Weather App",
+  "description": "A simple App for Weather in UK",
+  "type": "object",
+  "properties": {
+    "weather": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "windSpeed": {
+            "type": "number",
+            "minimum": 0
+          },
+          "cityName": {
+            "type": "string"
+          },
+          "currentConditions": {
+            "type": "string",
+            "enum": ["Cloud", "Heavy Cloud", "Hail", "Heavy Rain","Mist", "Rain", "Sleet", "Snow", "Sun", "Sun and Clouds", "Thunderstorm"]
+          },
+          "temperature": {
+            "type": "number"
+          },
+          "windSpeed": {
+            "type": "number",
+            "minimum": 0
+          },
+          "windDirection": {
+            "type": "string",
+            "enum": ["Northerly", "North easterly", "Easterly", "South easterly", "Southerly", "South westerly", "Westerly", "North westerly"]
+          },
+          "windChillFactor": {
+            "type": "number"
+          }
+
+        },
+        "required": ["cityId", "cityName", "currentConditions", "temperature", "windSpeed", "windDirection", "windChillFactor"]
+
+      }
+    }
+  }
+}
